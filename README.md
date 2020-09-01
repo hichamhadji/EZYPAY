@@ -23,9 +23,11 @@ localhost:8080/graphiql
 ```
 Enjoy !
 
-####Funtions:
+#### Funtions:
+##### Subscriptions List 
+![Create Subscription](https://github.com/hichamhadji/EZYPAY/blob/master/images/Subscriptions.PNG?raw=true)
 
-######CreateSubscription
+###### CreateSubscription
 
 ![Create Subscription](https://github.com/hichamhadji/EZYPAY/blob/master/images/CreateSubscription.PNG?raw=true)
 
