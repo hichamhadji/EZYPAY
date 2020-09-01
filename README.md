@@ -39,15 +39,18 @@ Visit:
 localhost:8080/graphiql
 ```
 Enjoy !
+
+
 #### Documentation
 
-####### Queries
+###### Queries
 ![Queries](https://github.com/hichamhadji/EZYPAY/blob/master/images/Queries.PNG?raw=true)
 
-####### Mutations
+###### Mutations
 ![Mutations](https://github.com/hichamhadji/EZYPAY/blob/master/images/Mutations.PNG?raw=true)
 
 #### Funtions:
+
 ##### Get Subscriptions List 
 ![Subscriptions](https://github.com/hichamhadji/EZYPAY/blob/master/images/Subscriptions.PNG?raw=true)
 
