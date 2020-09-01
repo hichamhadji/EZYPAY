@@ -15,7 +15,13 @@ The app uses a number of open source projects to work properly:
 Please Refer to Technical Debt file as well.
 
 ```sh
-Create Graphql Subscriptions:
+A.Branch The Repos:
+1.Create Dev branch and respective branches(Workflow best practices)
+
+B.Treat all edge cases:
+1.Hundle extreme Dates format
+
+C.Create Graphql Subscriptions:
 1. Add Graphql subscription to get newly created Payment Subscriptions on Real time.
 2.Add Graphql subscription to get updated Payment Subscriptions
 3.Add Graphql subscription to get notification for deleted Payment Subscriptions
