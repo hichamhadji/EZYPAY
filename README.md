@@ -27,7 +27,7 @@ Enjoy !
 
 ######CreateSubscription
 
-![alt text](http://images/CreateSubscription.PNG) 
+![Create Subscription](https://github.com/hichamhadji/EZYPAY/blob/master/images/CreateSubscription.PNG?raw=true)
 
 
 ### Run on docker
