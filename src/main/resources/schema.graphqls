@@ -28,6 +28,8 @@ type Mutation{
 		startDate: String!,
 		endDate: String 
 	): PaymentSubscription
+	
+	deleteSubscription(id: ID!):String
 }
 
 

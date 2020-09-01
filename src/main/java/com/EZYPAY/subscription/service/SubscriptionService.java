@@ -2,6 +2,7 @@ package com.EZYPAY.subscription.service;
 import com.EZYPAY.subscription.dao.entity.PaymentSubscription;
 import com.EZYPAY.subscription.dao.entity.SubscriptionType;
 import com.EZYPAY.subscription.dao.repository.SubscriptionRepository;
+import com.EZYPAY.subscription.exception.SubscriptionNotFound;
 import com.EZYPAY.subscription.exception.SubscriptionPeriodExeeded;
 
 import org.springframework.stereotype.Service;
@@ -52,10 +53,27 @@ public class SubscriptionService {
 	    public List<PaymentSubscription> getAllSubscriptions(final int count) {
 	        return this.subscriptionRepository.findAll().stream().limit(count).collect(Collectors.toList());
 	    }
+	    
+	    
 	    @Transactional(readOnly = true)
 	    public Optional<PaymentSubscription> getSubscription(final int id) {
 	        return this.subscriptionRepository.findById(id);
 	    }
+	    
+	    @Transactional(readOnly = true)
+	    public String deleteSubscription(final int id) {
+	    	
+	    	try {
+	         this.subscriptionRepository.deleteById(id);
+	    	}catch (Exception e) {
+				
+	    		throw new SubscriptionNotFound("Subscription with Id: "+ id + " Not found");
+			}
+	         
+	         return "Deleted Successfuly !";
+	         
+	    }
+	
 	
 
 }

@@ -1,13 +1,13 @@
 # EZYPAY- Payment Subscription 
 
 Payment Subscription is a simple application to allow customers to subscrib to a reacurring payment. 
-### Tech
+### Tech stack
 
 The app uses a number of open source projects to work properly:
 
 * [Spring Boot] - Spring Boot makes it easy to create stand-alone, production-grade Spring based Applications that you can "just run".
 * [GraphQL] - GraphQL is a query language to retrieve data from a server. It is an alternative to REST, SOAP or gRPC in some way.
-* [Graphiql] - Authentication for Graphene Django
+* [Graphiql] - Simple play ground to play with graphql (Queries and Mutations) as well as to see API documentation.
 * [Lombok] - GraphQL in Python Made Easy.
 * [Joda Time] - GraphQL for django.
 
@@ -35,7 +35,9 @@ Enjoy !
 
 ![Create Subscription](https://github.com/hichamhadji/EZYPAY/blob/master/images/CreateSubscription.PNG?raw=true)
 
+###### Delete Subscription
 
+![Create Subscription](https://github.com/hichamhadji/EZYPAY/blob/master/images/deleteSubscription.PNG?raw=true)
 ### Run on docker
 Run: 
 ```sh

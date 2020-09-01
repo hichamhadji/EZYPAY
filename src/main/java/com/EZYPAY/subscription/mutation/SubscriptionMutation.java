@@ -23,4 +23,10 @@ public class SubscriptionMutation implements GraphQLMutationResolver {
 		
 	   }
 
+	
+	public String deleteSubscription(final int id) {
+
+    	return this.subscriptionService.deleteSubscription(id);
+	
+   }
 }
