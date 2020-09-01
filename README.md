@@ -21,8 +21,14 @@ Visit:
 ```sh
 localhost:8080/graphiql
 ```
-
 Enjoy !
+
+####Funtions:
+
+######CreateSubscription
+
+![alt text](http://images/CreateSubscription.PNG) 
+
 
 ### Run on docker
 Run: 
