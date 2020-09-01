@@ -65,6 +65,15 @@
             <artifactId>graphiql-spring-boot-starter</artifactId>
             <version>5.0.2</version>
         </dependency>
+        
+        <dependency>
+		    <groupId>com.graphql-java-kickstart</groupId>
+		    <artifactId>graphql-spring-boot-starter-test</artifactId>
+		    <version>6.0.0</version>
+		    <scope>test</scope>
+		</dependency>
+
+        
        <!-- https://mvnrepository.com/artifact/joda-time/joda-time -->
 		<dependency>
 		    <groupId>joda-time</groupId>
