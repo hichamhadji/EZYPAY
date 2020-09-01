@@ -1,0 +1,34 @@
+enum SubscriptionType{
+	DAILY
+	WEEKLY
+	MONTHLY
+}
+
+type PaymentSubscription{	
+	id: ID!,
+	amount: Float!,
+	type: SubscriptionType!,
+	accursEvery: String!
+	startDate: String!,
+	endDate: String!
+
+}
+
+
+type Query {
+  subscriptions(count: Int): [PaymentSubscription]
+  subscription(id: ID):PaymentSubscription
+}
+
+type Mutation{
+	createSubscription(
+		amount: Float!,
+		type: SubscriptionType!,
+		accursEvery: String!
+		startDate: String!,
+		endDate: String 
+	): PaymentSubscription
+}
+
+
+
