@@ -11,6 +11,17 @@ The app uses a number of open source projects to work properly:
 * [Lombok] - GraphQL in Python Made Easy.
 * [Joda Time] - GraphQL for django.
 
+### Technical Debt
+Please Refer to Technical Debt file as well.
+
+```sh
+Create Graphql Subscriptions:
+1. Add Graphql subscription to get newly created Payment Subscriptions on Real time.
+2.Add Graphql subscription to get updated Payment Subscriptions
+3.Add Graphql subscription to get notification for deleted Payment Subscriptions
+4.Add a mutation to update subscription by Id
+```
+
 ### Run on localhost
 
 
@@ -22,22 +33,29 @@ Visit:
 localhost:8080/graphiql
 ```
 Enjoy !
+#### Documentation
+
+####### Queries
+![Queries](https://github.com/hichamhadji/EZYPAY/blob/master/images/Queries.PNG?raw=true)
+
+####### Mutations
+![Mutations](https://github.com/hichamhadji/EZYPAY/blob/master/images/Mutations.PNG?raw=true)
 
 #### Funtions:
 ##### Get Subscriptions List 
-![Create Subscription](https://github.com/hichamhadji/EZYPAY/blob/master/images/Subscriptions.PNG?raw=true)
+![Subscriptions](https://github.com/hichamhadji/EZYPAY/blob/master/images/Subscriptions.PNG?raw=true)
 
 ##### Get Subscription by Id
 
-![Create Subscription](https://github.com/hichamhadji/EZYPAY/blob/master/images/Subscription.PNG?raw=true)
+![Subscription](https://github.com/hichamhadji/EZYPAY/blob/master/images/Subscription.PNG?raw=true)
 
-###### CreateSubscription
+##### CreateSubscription
 
-![Create Subscription](https://github.com/hichamhadji/EZYPAY/blob/master/images/CreateSubscription.PNG?raw=true)
+![CreateSubscription](https://github.com/hichamhadji/EZYPAY/blob/master/images/CreateSubscription.PNG?raw=true)
 
-###### Delete Subscription
+##### Delete Subscription
 
-![Create Subscription](https://github.com/hichamhadji/EZYPAY/blob/master/images/deleteSubscription.PNG?raw=true)
+![deleteSubscription](https://github.com/hichamhadji/EZYPAY/blob/master/images/deleteSubscription.PNG?raw=true)
 ### Run on docker
 Run: 
 ```sh

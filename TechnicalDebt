@@ -2,3 +2,4 @@ Create Subscriptions:
 1. Add Graphql subscription to get newly created Payment Subscriptions on Real time.
 2.Add Graphql subscription to get updated Payment Subscriptions
 3.Add Graphql subscription to get notification for deleted Payment Subscriptions
+4.Add a mutation to update subscription by Id
