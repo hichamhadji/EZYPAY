@@ -29,7 +29,7 @@ Enjoy !
 
 ##### Get Subscription by Id
 
-![Create Subscription](https://github.com/hichamhadji/EZYPAY/blob/master/images/subscription.PNG?raw=true)
+![Create Subscription](https://github.com/hichamhadji/EZYPAY/blob/master/images/Subscription.PNG?raw=true)
 
 ###### CreateSubscription
 
