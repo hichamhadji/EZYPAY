@@ -1,6 +1,6 @@
 # EZYPAY- Payment Subscription 
 
-Payment Subscription is a simple application to allow customers to subscrib to a reacurring payment. 
+Payment Subscription is a simple application to allow customers to subscribe to a recurring payment. 
 ### Tech stack
 
 The app uses a number of open source projects to work properly:
@@ -8,8 +8,8 @@ The app uses a number of open source projects to work properly:
 * [Spring Boot] - Spring Boot makes it easy to create stand-alone, production-grade Spring based Applications that you can "just run".
 * [GraphQL] - GraphQL is a query language to retrieve data from a server. It is an alternative to REST, SOAP or gRPC in some way.
 * [Graphiql] - Simple play ground to play with graphql (Queries and Mutations) as well as to see API documentation.
-* [Lombok] - GraphQL in Python Made Easy.
-* [Joda Time] - GraphQL for django.
+* [Lombok] - Project Lombok is a java library that automatically plugs into your editor and build tools, spicing up your java.
+* [Joda Time] - Joda-Time provides a quality replacement for the Java date and time classes..
 
 ### Technical Debt
 Please Refer to Technical Debt file as well.
