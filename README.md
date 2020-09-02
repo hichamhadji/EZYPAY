@@ -71,11 +71,11 @@ Enjoy !
 ### Run on docker
 Run: 
 ```sh
-$ docker build -t EZYPAY/subscription/ .
+$ docker build -t ezypay/subscription/ .
 ```
 
 ```sh
-$ docker run -p 8080:8080 EZYPAY/subscription
+$ docker run -p 8080:8080 ezypay/subscription
 ```
 
 Visit:
