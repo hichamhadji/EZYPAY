@@ -71,7 +71,7 @@ Enjoy !
 ### Run on docker
 Run: 
 ```sh
-$ docker build -t ezypay/subscription/ .
+$ docker build -t ezypay/subscription .
 ```
 
 ```sh
